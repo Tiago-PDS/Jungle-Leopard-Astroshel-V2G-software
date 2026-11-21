@@ -1,0 +1,19 @@
+Software requirements
+
+Windows 10 or 11 (the autostart feature uses the Windows registry)
+
+Python 3 with tkinter, which is included in the normal python.org installer
+
+Python packages: pyserial and pillow
+
+
+python -m pip install pyserial pillow pystray psutil
+
+
+*Before you run it*
+
+Close the official Jungle Leopard software and disable its own startup entry. Only one program can use the screen at a time.
+
+Put the script in a permanent folder (not OneDrive or a temporary location) before enabling “Start with Windows”.
+
+Run it with pythonw hongtai_app.py to avoid a console window. If you start it with python from PowerShell, closing PowerShell closes the app.
